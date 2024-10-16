@@ -1,0 +1,23 @@
+# Ignorar el archivo de configuración con credenciales de la base de datos
+wp-config.php
+
+# Ignorar las carpetas del núcleo de WordPress
+wp-admin/
+wp-includes/
+
+# Ignorar archivos de subidas y multimedia
+wp-content/uploads/
+
+# Ignorar plugins de terceros (solo sube los personalizados si es necesario)
+wp-content/plugins/
+
+# Ignorar temas que no estás desarrollando
+wp-content/themes/twentytwentyone/
+wp-content/themes/twentytwentythree/
+
+# Ignorar archivos temporales y logs
+*.log
+*.sql
+*.zip
+.htaccess
+.DS_Store
